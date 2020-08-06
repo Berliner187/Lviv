@@ -10,16 +10,78 @@
 	font-family: 'SFNS Display';
 	src: url(../fonts/SFNS.ttf)
 }
-@font-face {
-	font-family: 'Cramaten';
-	src: url(../fonts/Cramaten.ttf)
-}
 html {
 	scroll-behavior: smooth;
 }
 .box-position {
-	margin-top: 4em;padding-top: 2em
+	margin-top: 4em;
+	padding-top: 2em
 }
+
+.hesh-tag {
+	font-style: italic;
+	font-size: 2.4vw;
+	float: left;
+	margin-top: .3vw;
+	margin-left: 1%;
+	color: #8b4c7a
+}
+.menu {
+	position: fixed;
+	margin: 0 auto;
+	margin-top: .2%;
+	top: 0;
+	width: 99.2%;
+	background-color: #f2f3f4;
+	height: 3vw;
+	opacity: .5;
+	border-radius: 1.2em;
+	transition-duration: .4s;
+}
+.elem-menu {
+	padding-left: 1em;
+	transition-duration: .6s;
+	color: #b8e3ea;
+	text-decoration: none;
+	margin: 0 auto;
+	font-family: 'Arial';
+	font-size: 1.3vw;
+	margin-left: .2vw;
+    border-radius: 1.1vw;
+    color: white;
+    padding: .7vw 2vw;
+    background-color: #c7aabc;
+    display: inline-block;
+    transition-duration: .4s;
+}
+.elem-menu:hover {
+	color: #000;
+	background-color: #b8e3ea;
+	transition-duration: .4s;
+}
+.right-btn {
+	float: right;
+	padding-left: 1em;
+	transition-duration: .6s;
+	color: #b8e3ea;
+	text-decoration: none;
+	margin: 0 auto;
+	font-family: 'Arial';
+	font-size: 1.3vw;
+	margin-right: 1.2vw;
+    border-radius: 1.1vw;
+    color: white;
+    padding: .7vw 2vw;
+    background-color: #c7aabc;
+    display: inline-block;
+    transition-duration: .4s;	
+}
+.right-btn:hover {
+	color: #000;
+	background-color: #b8e3ea
+}
+
+
 .lviv-logo {
 	font-family: 'Mon Amour One';
 	font-size: 4.2vw;
@@ -28,13 +90,6 @@ html {
 	margin-top: 0
 }
 
-.hesh-tag {
-	font-style: italic;
-	font-size: 38px;
-	float: left;
-	margin-top: 0;
-	margin-left: 1%;
-}
 h1 {
 	font-family: 'Pobeda';
 	font-size: 5em;
@@ -91,12 +146,23 @@ p {
 	margin-left: 5.5em;
 	margin-right: 5.5em
 }
+.p-ctr {
+	text-align: center;
+	text-indent: 0;
+	font-size: 2em
+}
 
 .recourses {
 	width: 80vw;
 	background-color: #f2f3f4;
 	border-radius: 20px;
 	margin: 0 auto;
+}
+.contact {
+	width: 80vw;
+	background-color: #f2f3f4;
+	border-radius: 20px;
+	margin: 0 auto;	
 }
 
 hr {
@@ -134,7 +200,7 @@ hr {
 	background-color: #f2f3f4;
 	border-radius: 20px;
 	margin: 0 auto;
-	margin-top: 3%
+	margin-top: 3%;
 }
 .img-center {
 	text-align: center;
@@ -143,48 +209,9 @@ hr {
 .img-round {
 	border-radius: 15px
 }
-.menu {
-	position: fixed;
-	margin: 0 auto;
-	margin-top: .5%;
-	width: 99.2%;
-	background-color: #f2f3f4;
-	height: 2.8em;
-	opacity: .5;
-	border-radius: 1.2em;
-	transition-duration: .4s
-}
 .menu:hover {
 	opacity: 1;
 	transition-duration: .3s
-}
-.elem-menu-buttons {
-	margin: 0 auto;
-	width: 70%;
-	max-width: 70vw
-}
-.elem-menu {
-	padding-left: 1em;
-	transition-duration: .6s;
-	font-size: 25px;
-	color: #b8e3ea;
-	font-family: 'SFNS Display';
-	text-decoration: none;
-	margin: 0 auto;
-	font-family: 'Arial';
-	font-size: 1.3em;
-	margin-left: .2em;
-    border-radius: 1.1em;
-    color: white;
-    padding: .5em 2em;
-    background-color: #c7aabc;
-    display: inline-block;
-    transition-duration: .4s;
-}
-.elem-menu:hover {
-	color: #000;
-	background-color: #b8e3ea;
-	transition-duration: .4s;
 }
 
 
